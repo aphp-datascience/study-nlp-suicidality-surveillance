@@ -9,9 +9,7 @@
 <a href="https://www.python.org/" target="_blank">
     <img src="https://img.shields.io/badge/python-%3E%3D%203.7.10%20%7C%20%3C%3D%203.7.13-brightgreen" alt="Supported Python versions">
 </a>
-<a href="https://zenodo.org/" target="_blank">
-    <img src="https://img.shields.io/badge/DOI-1234%2Fzenodo.1234-blue" alt="Zenodo">
-</a>
+<a href="https://zenodo.org/badge/latestdoi/683012195"><img src="https://zenodo.org/badge/683012195.svg" alt="DOI"></a>
 </p>
 </div>
 
@@ -38,9 +36,8 @@ The code has been executed on the database of the <a href="https://eds.aphp.fr/"
 This repository is not maintained. It contains computer code that is specific to a research study.
 
 
-## Version 0.1.0
-
-- Submission of the article for review.
+## Version 1.0.0
+- Code of article after review.
 
 ## Setup
 
