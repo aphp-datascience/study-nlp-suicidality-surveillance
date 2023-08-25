@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+
+# DS Store
+.DS_Store
+
+# Distribution / packaging
+init
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*cover
+.hypothesis/
+.pytest_cache/
+
+# IPython Notebook
+*.ipynb_checkpoints
+**/.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+*ipynb_checkpoints*
+*-checkpoint*
+notebooks/annotation_train/*
+*.ipynb_checkpoints*
+
+# Data
+*.csv
+*.xls
+*.xlsx
+data/
+test/test_data/*
+
+# Draft
+draft/*
+
+# Images
+figures/
+
+# Kernel
+kernel.json
+
+# Logs
+**/lightning_logs
+logs/*
+
+# Files
+.vscode/settings.json
+bash/spark_submit.sh

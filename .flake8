@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 88
+per-file-ignores = ./set_environment.py,suicide_attempt/pipelines/make_plots.py,suicide_attempt/functions/constants.py:E501,suicide_attempt/functions/plot_utils.py:W605,E203,suicide_attempt/functions/nlp_ml/ml_utils.py:E203,
+ignore = E231,W503,E261

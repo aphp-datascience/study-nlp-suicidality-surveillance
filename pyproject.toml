@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "suicide-attempt"
+version = "0.1.0"
+description = "Projet CSE 21-13"
+authors = ["Ariel Cohen"]
+license = "BSD 3-Clause License"
+readme = "README.md"
+packages = [{include = "suicide_attempt"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7.10,<=3.7.13"
+pandas = "1.3.5"
+numpy = "1.21.6"
+spacy = "3.3.0"
+spaczz = "0.5.3"
+ipykernel = "^6.16.0"
+seaborn = "0.11.2"
+networkx = "2.6.3"
+scikit-learn = "1.0.1"
+black = "^22.10.0"
+jupytext = "1.13.8"
+sentencepiece = "^0.1.97"
+lifelines = "0.26.4"
+loguru = "^0.6.0"
+nbformat = "^5.7.0"
+pyspark = "2.4.3"
+pyarrow = "7.0.0"
+click = "8.0.3"
+statsmodels = "0.13.2"
+lxml = "4.8.0"
+typer = "0.4.0"
+edsnlp = "0.6.1"
+matplotlib = "3.5.1"
+multiprocess = "0.70.12.2"
+nb-black = "1.0.7"
+torchmetrics = "0.7.0"
+pytorch-lightning = "1.4.9"
+transformers = "4.16.2"
+datasets = "1.18.4"
+torch = "1.9.0"
+ray = "1.9.2"
+tokenizers = "0.11.6"
+tensorboard = "2.8.0"
+Cython = "0.29.24"
+
+[tool.poetry.group.annotation]
+optional = true
+
+[tool.poetry.group.annotation.dependencies]
+labeltool = {git = "ssh://git@gitlab.eds.aphp.fr:2224/datasciencetools/labeltool.git", rev = "psy-ts-v2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

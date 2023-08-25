@@ -1,0 +1,20 @@
+{
+    "debug":false,
+    "schema":"cse_210013_20221005",
+    "admission_mode":null,
+    "type_of_visit":["I"],
+    "only_cat_docs":["CR:CRH-CHIR","CR:CRH-HOSPI","CR:CRH-J","CR:CRH-NEUROL","CR:CRH-PEDIA","CR:CRH-S","CR:LT-SOR","CR:INCONNU"],
+    "rule_select_docs":"keep_last",
+    "text_classification_method":"text_ml",
+    "rule_icd10":"X60-X84",
+    "icd10_type":"AREM",
+    "threshold_positive_instances":1,
+    "delta_min_visits":"15D",
+    "delta_history":"15D",
+    "date_from":"2017-08-01",
+    "date_upper_limit":"2022-07-01",
+    "hospitals_train":["BCH","LMR","SAT","APR","SLS","NCK","PSL","ABC","LRB","PBR"],
+    "hospitals_test":["BCT","JVR","TRS","TNN","HMN"],
+    "ehr_deployement_file":"ratio_doc_hospit_092022",
+    "encounter_subset":null
+}
